@@ -1,0 +1,53 @@
+body{
+    font-family: 'Josefin Sans';
+    margin: 0;
+}
+
+p, h1, h3, h5{
+    padding: 0;
+    margin: 0;
+}
+
+.above{
+    display: flex;
+    justify-content: space-between;
+}
+.info_above{
+    gap: 25px;
+    display: flex;
+}
+
+.info_mail, .info_phone{
+    display: flex;
+}
+
+.icons{
+    display: flex;
+}
+
+nav{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    text-align: center;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+li{
+    text-align: center;
+}
+
+
+
+.first_background{
+    background-image: url(img/background-image.png);
+}
