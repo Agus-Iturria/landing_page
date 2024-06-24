@@ -8,27 +8,19 @@ p, h1, h3, h5{
     margin: 0;
 }
 
+
+
+
+
+
+
 .above{
-    display: flex;
-    justify-content: space-between;
-}
-.info_above{
-    gap: 25px;
-    display: flex;
-}
-
-.info_mail, .info_phone{
-    display: flex;
-}
-
-.icons{
-    display: flex;
+    display: none;
 }
 
 nav{
-    display: flex;
-    background-color: white;
-    border-radius: 10px;
+    padding: 30px ;
+
 }
 
 a{
@@ -36,18 +28,105 @@ a{
 }
 
 ul{
-    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0;
+    padding: 10px;
+    justify-content: space-evenly;
     display: flex;
+    align-items: center;
     list-style: none;
     text-decoration: none;
+    gap: 10px;
 }
 
-li{
-    text-align: center;
+li a{
+    display: none;
 }
 
+li button{
+    padding: 18px;
+    font-size: 20px;
+    border-style: none;
+    background: #5956E9;
+    border-radius: 5px;
+    color: white;
+}
 
+.bar{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px;
+}
+
+.content-container{
+    align-items: center;
+}
 
 .first_background{
     background-image: url(img/background-image.png);
+}
+
+
+
+
+
+
+
+
+@media(min-device-width: 768px){
+    .above{
+        display: flex;
+        justify-content: space-between;
+    }
+    .info_above{
+        gap: 25px;
+        display: flex;
+    }
+    
+    .info_mail, .info_phone{
+        display: flex;
+    }
+    
+    .icons{
+        display: flex;
+    }
+    
+    nav{
+        display: flex;
+        background-color: white;
+        border-radius: 10px;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    ul{
+        padding: 0;
+        text-align: center;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        list-style: none;
+        text-decoration: none;
+        gap: 10px;
+    }
+    
+    li{
+        text-align: center;
+    }
+    
+    li button{
+        border-style: none;
+        background: #5956E9;
+        border-radius: 5px;
+        color: white;
+    }
+    
+    
+    .first_background{
+        background-image: url(img/background-image.png);
+    }
 }
