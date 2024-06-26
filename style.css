@@ -65,9 +65,12 @@ li button{
     }
     
     nav{
+        justify-content: center;
         display: flex;
+        align-items: center;
         margin:25px 0;
-
+        height: 200px;
+        margin: 20px 60px 0 60px;
     }
     
     a{
@@ -75,29 +78,33 @@ li button{
     }
     
     .content-left{
+        height: 75px;
         background-color: white;
         align-items: center;
-        padding-top: 5px;
-        padding-left:30px;
-        padding-right: 100px;
+        padding-left:20px;
         border-radius: 10px 0px 0px 10px ;
         margin: 0;
         display: flex;
         align-items: right;
         list-style: none;
+        width: 100%;
 
     }
 
     .content-right{
+        height: 75px;
         background-color: white;
         align-items: center;
-        padding-right: 30px;
-        padding-left: 100px;
+        padding-right: 5px;
         border-radius: 0px 10px 10px 0px ;
         margin: 0;
         display: flex;
         align-items: right;
         list-style: none;
+        width: 100%;
+        justify-content: right;
+
+
     }
     
     li a{
@@ -105,7 +112,6 @@ li button{
     }
     
     li button{
-        justify-content: right;
         padding: 18px;
         font-size: 20px;
         border-style: none;
@@ -115,15 +121,22 @@ li button{
     }
     
     .logo{
+        display: flex;
         border-radius: 10px;
         background-color: white;
-        padding: 50px;
+        padding: 25px;
         position: relative;
         z-index: 1;
         box-shadow: 0 0 75px #00000020;
-
+        height: 100px;
+        width: 200px;
+        align-items: center;
+        justify-content: center;
     }
-
+    
+    .logo img{
+        width: 200px;
+    }
 
     .bar{
         width: 35px;
@@ -190,6 +203,11 @@ li button{
     .first_background{
         background-image: url(img/background-image.png);
     }
+
+
+
+
+
 
 
 
