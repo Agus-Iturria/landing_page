@@ -69,7 +69,7 @@ li button{
         display: flex;
         align-items: center;
         height: 200px;
-        margin: 20px 30px 0 30px;
+        margin: 50px 30px 0 30px;
     }
     
     a{
@@ -167,7 +167,7 @@ li button{
     margin-bottom: 10px;
     position: relative;
     background: black;
-    z-index: 1;
+    z-index: 2;
     transform-origin: 4px 0px;
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
                 background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
@@ -203,7 +203,6 @@ li button{
     border-radius: 10px;
     background: #ffffff;
     list-style: none;
-    
     transform: translate(-100%, 0);
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
     }
@@ -222,7 +221,7 @@ li button{
 
 
 
-    
+
     .download-container{
         justify-content: flex-start;
         display: flex;
@@ -234,17 +233,39 @@ li button{
         width: 300px;
     }
 
-    .shadow-container img{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 700px;
+
+
+
+
+
+
+
+    .shadow-container{
+        margin-top: 300px;
+        position: relative;
+        margin-bottom: 150px;
+        
+    }
+
+    .shadow{
+        position: absolute;
+        z-index: 0; 
+        border: 25px solid #7572FF;
+        height: 105%;
+        width: 80%;
+
+        top: -50px;
+        right: 20px;
+
     }
 
     .content-container{
+        position: relative;
+        z-index: 0.5;
         background-color: white;
         align-items: center;
         margin: 60px;
+        left: -15px;
 
     }
 
@@ -277,6 +298,17 @@ li button{
         padding: 50px;
     }
 
+    .image{
+        text-align: center;
+        padding-bottom: 300px;
+
+    }
+
+    .image img{
+        width: 85%;
+        margin-left: 15%;
+        
+    }
 
 
     .first_background{
@@ -288,7 +320,7 @@ li button{
 
 
     .app-container{
-        padding: 100px 80px 80px 80px;
+        padding: 200px 80px 80px 80px;
     }
 
 
@@ -296,7 +328,7 @@ li button{
         font-size: 50px;
         font-weight: 500;
         text-align: center;
-        margin-bottom: 40px;
+        margin-bottom: 60px;
     
     }
 
@@ -306,6 +338,17 @@ li button{
         line-height: 50px;
         text-align: center;
         color: #6C6C72;
+    }
+
+
+
+    .article-container img{
+        display: block;
+        margin: auto;
+        width: 60%;
+
+        padding-bottom: 100px;
+        
     }
     
     .box-container{
