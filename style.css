@@ -50,12 +50,19 @@ li button{
 }
 
 
-.first_background{
+.background{
     background-image: url(img/background-image.png);
 }
 
 
 @media(max-device-width: 375px){
+    .background{
+        background-image: url(img/background-image.png);
+        color: white;
+    }
+
+
+
     .above .info_above{
         display: none;
     }
@@ -311,11 +318,6 @@ li button{
     }
 
 
-    .first_background{
-        background-image: url(img/background-image.png);
-    }
-
-
 
 
 
@@ -352,25 +354,28 @@ li button{
     }
     
     .box-container{
-        box-shadow: 0 0 75px #00000020;
-        border-radius: 10px;
-        margin: 20px;
-        padding: 50px;
+        box-shadow: 0 0 20px #00000020;
+        border-radius: 20px;
+        margin: 40px;
+        padding: 60px;
         display: flex;
 
     }
 
     .box-container img{
-        width: 20%;
+        justify-content: flex-start;
+        width: 100px;
+        padding-right:30px;
     }
 
     .box-content-container h3{
         font-size: 50px;
         font-weight: 550;
-        padding-bottom: 20px;
+        padding-bottom: 30px;
     }
     .box-content-container p{
         font-size: 30px;
+        font-weight: 350;
         color: #6C6C72;
     }
 }
