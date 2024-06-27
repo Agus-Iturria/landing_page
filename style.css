@@ -378,4 +378,53 @@ li button{
         font-weight: 350;
         color: #6C6C72;
     }
+
+
+
+
+
+    .feature-tittle{
+        padding: 150px 70px 50px 70px;
+        text-align: center;
+    }
+
+    .feature-tittle h1{
+        font-size: 60px;
+        font-weight: 400;
+        padding-bottom: 50px;
+    }
+
+    .feature-tittle p{
+        font-weight: 350;
+        line-height: 40px;
+    }
+
+    .feature-container{
+        text-align: center;
+        padding: 20px 150px 50px 150px;
+
+    }
+
+    .feature-container h5{
+        font-size: 40px;      
+        font-weight: 400;
+        line-height: 80px;
+        padding: 40px  0 40px 0;  
+    }
+
+    .feature-container p{
+        font-size: 20px;      
+        font-weight: 300;
+        padding-bottom: 80px;
+    }
+
+    .feature-container img{
+        width: 15%;
+        padding-bottom: 20px;
+    }
+
+    .feature-middle img{
+        width: 100%;
+        padding: 0;
+    }
 }
