@@ -82,6 +82,10 @@ li button{
         padding: 150px 70px 50px 70px;
     }
 
+    .footer-background{
+        background: #232233;
+        color: white;
+    }
 
     .background{
         background-image: url(img/background-image.png);
@@ -431,8 +435,9 @@ li button{
 
 
 
-
-
+    .team-section{
+        margin-bottom: 500px;
+    }
     .member-box{
         border-radius: 20px;
         box-shadow: 0 0 20px #00000020;
@@ -480,5 +485,51 @@ li button{
     }
 
 
-    
+
+
+
+    .contact{
+        border-radius: 20px;
+        box-shadow: 0 0 20px #00000020;
+        text-align: center;
+        margin: 60px 30px 60px 30px;
+        position: absolute;
+        top: -36%;
+        left: 50px;
+        background-color: #fff;
+    }
+
+    .icon-background img{
+        padding: 40px;
+        width: 50px;
+        background: #5956E9;
+        border-radius: 50%;
+    }
+
+    .contact-box{
+        padding: 50px 40px 50px 40px;
+
+    }
+
+    .contact-box h3{
+        font-size: 40px;
+        font-weight: 500;
+        padding-top: 50px;
+    }
+
+    .contact hr{
+        border: 5px solid #232233;
+        margin: 0 35% 0 35%;
+    }
+
+    footer{
+        position: relative;
+    }
+    .footer-content{
+        padding-top: 500px;
+    }
+
+    .footer-logo-container h1{
+        font-size: 50px;
+    }
 }
