@@ -55,7 +55,34 @@ li button{
 }
 
 
-@media(max-device-width: 375px){
+@media(min-device-width: 375px){
+
+    .tittles{
+        font-size: 50px;
+        font-weight: 500;
+        margin-bottom: 60px;
+    }
+
+    .information{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 50px;
+    }
+
+    .grey{
+        color: #6C6C72;
+    }    
+
+    .white{
+        color: white;
+    }
+
+    .tittle-container{
+        text-align: center;
+        padding: 150px 70px 50px 70px;
+    }
+
+
     .background{
         background-image: url(img/background-image.png);
         color: white;
@@ -319,28 +346,18 @@ li button{
 
 
 
-
+    .app-section{
+        padding-bottom: 150px;
+    }
 
     .app-container{
-        padding: 200px 80px 80px 80px;
-    }
-
-
-    .app-container h1{
-        font-size: 50px;
-        font-weight: 500;
+        padding: 0px 80px 80px 80px;
         text-align: center;
-        margin-bottom: 60px;
-    
     }
 
-    .app-container p{
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 50px;
-        text-align: center;
-        color: #6C6C72;
-    }
+
+
+
 
 
 
@@ -381,24 +398,6 @@ li button{
 
 
 
-
-
-    .feature-tittle{
-        padding: 150px 70px 50px 70px;
-        text-align: center;
-    }
-
-    .feature-tittle h1{
-        font-size: 60px;
-        font-weight: 400;
-        padding-bottom: 50px;
-    }
-
-    .feature-tittle p{
-        font-weight: 350;
-        line-height: 40px;
-    }
-
     .feature-container{
         text-align: center;
         padding: 20px 150px 50px 150px;
@@ -427,4 +426,59 @@ li button{
         width: 100%;
         padding: 0;
     }
+
+
+
+
+
+
+
+    .member-box{
+        border-radius: 20px;
+        box-shadow: 0 0 20px #00000020;
+        text-align: center;
+        margin: 60px 30px 60px 30px;
+        padding: 0 30px;
+    }
+
+    .member-box img{
+        width: 600px;
+        padding: 60px 0 ;
+    }
+
+    .member-box h1{
+        font-size: 75px;
+        padding-bottom: 25px;
+    }
+
+    .member-box h3{
+        font-size: 50px;
+        font-weight: 400;
+        padding-bottom: 45px;
+    }
+
+    .member-box p{
+        line-height: 70px;
+    }
+
+    .icons-list{
+        display: flex;
+        justify-content: space-between;
+        padding: 75px 0;
+    }
+
+    .icons-list img{
+        width: 70px;
+        border-right: 2px solid black;
+
+        padding: 0 60px;
+    }
+
+    .last-icon img{
+        border-right: none;
+        
+    }
+
+
+    
 }
