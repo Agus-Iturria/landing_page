@@ -365,7 +365,7 @@ transform: none;
 
 .feature-container p{
     font-size: 20px;      
-    font-weight: 300;
+    font-weight: 350;
     padding-bottom: 80px;
 }
 
@@ -747,24 +747,28 @@ footer{
 
     .middle{
         display: flex;
+        justify-content: space-evenly;
+        
     }
 
     .feature-container{
-        text-align: center;
         padding: 20px 20px 50px 20px;
     
     }
     
     .feature-container h5{
         font-size: 25px;      
-        line-height: 0px;
+        line-height: 35px;
         padding: 40px  0 40px 0;  
     }
+
     
     .feature-top p{
-        font-size: 20px;      
-        font-weight: 300;
         padding: 0 300px 50px 300px;
+    }
+
+    .feature-bottom p{
+        padding: 0 250px 50px 250px;
     }
    
     
@@ -782,19 +786,16 @@ footer{
 
 
     .feature-middle-left{
-        width: 35%;
+        width: 30%;
         text-align: right;
-        padding-right: 15px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
     }
 
     .feature-middle-right{
-        width: 35%;
+        width: 30%;
         text-align: left;
-        padding-left: 15px;
-
         padding: 0;
         display: flex;
         flex-direction: column;
@@ -802,14 +803,108 @@ footer{
         
     }
 
-    .box-middle-right h5{
-        padding: 60px 0;
-        line-height: 0;
-    }
-
-    
+        
     .feature-middle{
         width: 30%;
     }
+
+
+
+
+
+
+
+
+
+    .team-container{
+        display: flex;
+    }
+
+    .team-section{
+        margin-bottom: 500px;
+    }
+    .member-box{
+        width: 30%;
+
+        margin: 60px 10px 60px 10px;
+        padding: 0 10px;
+    }
     
+    .member-box img{
+        width: 200px;
+        padding: 30px 0 ;
+    }
+    
+    .member-box h1{
+        font-size: 25px;
+        padding-bottom: 25px;
+    }
+    
+    .member-box h3{
+        font-size: 20px;
+        padding-bottom: 25px;
+    }
+    
+    .member-box p{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    
+    .icons-list{
+        display: flex;
+        text-align: center;
+        padding: 15px 0;
+        
+    }
+    
+    .icons-list img{
+        width: 35px;
+        border-right: 2px solid black;
+        gap: 0px;
+
+        padding: 0px 15px 0px 0px;
+    }
+    
+    .last-icon img{
+        border-right: none;
+        
+    }
+    
+    
+    
+    
+    
+    .contact{
+        border-radius: 20px;
+        box-shadow: 0 0 20px #00000020;
+        text-align: center;
+        margin: 60px 40px;
+        position: absolute;
+        top: -395px;
+        left: 0%;
+        right: 0%;
+        background-color: #fff;
+    }
+    
+    .icon-background img{
+        padding: 40px;
+        width: 50px;
+        background: #5956E9;
+        border-radius: 50%;
+    }
+    
+    .contact-box{
+        padding: 50px 40px 50px 40px;
+    
+    }
+    
+    .contact-box h3{
+        font-size: 50px;
+        font-weight: 500;
+        padding-top: 50px;
+    }
+    
+    .contact hr{
+        border: 5px solid #232233;
+        margin: 0 35% 0 35%;
 }
