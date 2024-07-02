@@ -594,7 +594,7 @@ footer{
 .footer-copyright-container{
     display: flex;
     align-items: center;
-    text-align: center;
+
     padding: 60px 0;        
 }
 
@@ -826,7 +826,7 @@ footer{
     .member-box{
         width: 30%;
 
-        margin: 60px 10px 60px 10px;
+        margin: 30px 10px 30px 10px;
         padding: 0 10px;
     }
     
@@ -847,6 +847,7 @@ footer{
     
     .member-box p{
         font-size: 20px;
+        font-weight: 350;
         line-height: 25px;
     }
     
@@ -869,42 +870,186 @@ footer{
         border-right: none;
         
     }
+    .team-section{
+        margin-bottom: 150px;
+    }
     
     
     
+
     
-    
+
+
+
+
+
+
+
     .contact{
-        border-radius: 20px;
-        box-shadow: 0 0 20px #00000020;
-        text-align: center;
-        margin: 60px 40px;
-        position: absolute;
-        top: -395px;
-        left: 0%;
-        right: 0%;
-        background-color: #fff;
+        display: flex;
+        margin: 0px 40px;
+        top: -80px;
     }
     
     .icon-background img{
-        padding: 40px;
-        width: 50px;
-        background: #5956E9;
-        border-radius: 50%;
+        padding: 20px;
+        width: 20px;
     }
     
     .contact-box{
         padding: 50px 40px 50px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     
     }
     
     .contact-box h3{
-        font-size: 50px;
+        font-size: 20px;
         font-weight: 500;
-        padding-top: 50px;
+        padding: 0px;
     }
     
     .contact hr{
-        border: 5px solid #232233;
-        margin: 0 35% 0 35%;
+        border: 2px solid #232233;
+        margin: 30px 20px 30px 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    position: relative;
+}
+.footer-content{
+    padding-top: 200px ;
+    margin: 0 40px;
+
+}
+
+.footer-content-container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.footer-logo-container{
+    width: 30%;
+}
+
+.footer-links-container{
+    width: 25%;
+}
+
+.footer-newsletter-container{
+    width: 35%;
+}
+
+
+
+.footer-logo-container h1{
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+
+.footer-icons{
+    padding: 0px 0;
+}
+
+.footer-icons img{
+    width: 30px;
+    padding-right: 20px ;
+}
+
+.first-icon img{
+    padding: 0;
+    padding-right: 20px ;
+
+}
+
+
+.footer-links-container h3{
+    padding-top: 0;
+    font-size: 30px;
+}
+
+.footer-links-container ul{
+    padding:  0 0 20px 0;
+}
+.footer-links-container li{
+    font-size: 20px;
+    padding-top: 30px;
+
+}
+
+
+
+
+.footer-newsletter-container h3{
+    padding-top: 0;
+    font-size: 30px;
+}
+
+.footer-newsletter-container p{
+    padding: 20px 0;
+}
+
+
+.input-button{
+    height: 75px;
+    gap: 0;
+    padding: 25px 0 100px 0;
+}
+
+.input-button input{
+    border-radius: 10px;
+    width: 75%;
+    border: 5px solid white;
+    border-radius: 10px 0 0 10px;
+    font-family: 'Josefin Sans';
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.input-button button{
+
+    width: 25%;
+}
+.input-button img{
+    width: 80%;
+}
+
+
+.footer-copyright-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;        
+}
+
+.footer-copyright-container img{
+    width: 30px;
+    height: 50px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.footer-copyright-container p{
+    width: 55%;
+    font-size: 25px;
+    font-weight: 200;
+}
+
 }
