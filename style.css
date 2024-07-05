@@ -10,7 +10,7 @@ p, h1, h3, h5, input{
 
 
 header{
-    padding: 100px;
+    padding: 100px 0 0 0;
 }
 
 .tittles{
@@ -703,6 +703,7 @@ footer{
         display: flex;
         justify-content: space-between;
         padding: 40px 40px 0 40px;
+        align-items: center;
     }
     .info_above{
         gap: 50px;
